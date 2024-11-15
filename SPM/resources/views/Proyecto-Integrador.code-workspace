@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "Proyecto-Integrador",
+			"path": "../../.."
+		},
+		{
+			"name": "MAX30102-test",
+			"path": "../../../../../../Users/carlo/OneDrive/Escritorio/Max 30102/MAX30102-test"
+		},
+		{
+			"name": "MAX30102-webserver",
+			"path": "../../../../../../Users/carlo/OneDrive/Escritorio/Max 30102/MAX30102-webserver"
+		}
+	],
+	"settings": {}
+}
