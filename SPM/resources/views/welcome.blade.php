@@ -10,7 +10,7 @@
     <div class="text-center" style="background: rgba(0, 0, 0, 0.7); padding: 40px; border-radius: 15px; max-width: 700px;">
         <h1 class="display-3" style="color: #FFA500; font-weight: bold;">Sport Performance Metrics</h1>
         <p class="lead" style="color: #f1f1f1;">Transformando el rendimiento deportivo con soluciones innovadoras.</p>
-        <a href="#secciones" class="btn btn-lg" style="background-color: #FFA500; color: black; font-weight: bold; border-radius: 25px;">Descubre más</a>
+        <a href="{{ route('rutaInfo')}}" class="btn btn-lg" style="background-color: #FFA500; color: black; font-weight: bold; border-radius: 25px;">Descubre más</a>
     </div>
 </div>
 
