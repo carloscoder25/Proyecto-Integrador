@@ -11,6 +11,10 @@
         <h1 class="display-3" style="color: #FFA500; font-weight: bold;">Sport Performance Metrics</h1>
         <p class="lead" style="color: #f1f1f1;">Transformando el rendimiento deportivo con soluciones innovadoras.</p>
         <a href="{{ route('rutaInfo')}}" class="btn btn-lg" style="background-color: #FFA500; color: black; font-weight: bold; border-radius: 25px;">Descubre más</a>
+<!-- aqui redirige al formluario de inicio de sesion -->
+        <center><a href="{{route('rutaIS')}}" class="btn btn-lg" style="background-color: #444; color:#f1f1f1; font-weight: bold; border-radius: 25px">Ingresa</a> </center>
+    
+    
     </div>
 </div>
 
