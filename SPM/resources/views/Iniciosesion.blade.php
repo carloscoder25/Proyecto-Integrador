@@ -35,30 +35,22 @@ document.addEventListener('DOMContentLoaded', toggleRole);
         <!-- Sección de Inicio de Sesión y Registro -->
         <div class="row">
             <!-- Inicio de Sesión -->
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-header bg-primary text-white">
-                        <h3>Inicia Sesión</h3>
-                    </div>
-                    <div class="card-body">
-                        <form method="POST" action="{{ route('rutalogin') }}">
-                            @csrf
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Correo Electrónico</label>
-                                <input type="email" class="form-control" id="lemail" name="lemail" value="{{ old('lemail') }}">
-                                <small class="text-danger fst-bold">{{ $errors->first('lemail') }}</small>
-                            </div>
-                            <div class="mb-3">
-                                <label for="password" class="form-label">Contraseña</label>
-                                <input type="password" class="form-control" id="lpassword" name="lpassword" value="{{ old('lpassword') }}">
-                                <small class="text-danger fst-bold">{{ $errors->first('lpassword') }}</small>
-                            </div>
-                            
-                            <button type="submit" class="btn btn-primary w-100">Iniciar Sesión</button>
-                        </form>
-                    </div>
+            <form method="POST" action="{{ route('rutalogin') }}">
+                @csrf
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="lemail" name="lemail" value="{{ old('lemail') }}">
+                    <small class="text-danger fst-bold">{{ $errors->first('lemail') }}</small>
                 </div>
-            </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="lpassword" name="lpassword" value="{{ old('lpassword') }}">
+                    <small class="text-danger fst-bold">{{ $errors->first('lpassword') }}</small>
+                </div>
+                
+                <button type="submit" class="btn btn-primary w-100">Iniciar Sesión</button>
+            </form>
+            
 
             <div class="col-md-6">
                 <div class="card">

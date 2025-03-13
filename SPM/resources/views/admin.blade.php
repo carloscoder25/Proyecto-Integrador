@@ -11,18 +11,19 @@
         
         <div class="text-center" style="background: rgba(0, 0, 0, 0.5); padding: 20px; border-radius: 10px;">
             <h1 class="display-4">Sport Performance Metrics (SPM)</h1>
+            <p class="lead">Creación del perfil de entrenador</p>
             <p class="lead">La plataforma definitiva para medir y mejorar el rendimiento deportivo.</p>
         </div>
     </div>
 
     <div class="mt-5 container">
-        <!-- Sección de Inicio de Sesión y Registro -->
+        <!-- Sección de Inicio de sesion entrenador-->
         <div class="row">
             <!-- Inicio de Sesión -->
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-header bg-primary text-white">
-                        <h3>Inicia Sesión</h3>
+                        <h3>Inicia Sesión como entrenador</h3>
                     </div>
                     <div class="card-body">
                         <form method="POST" action="{{ route('login') }}">
@@ -45,11 +46,11 @@
                 </div>
             </div>
 
-            <!-- Registro -->
+            <!-- Registro de entreandor-->
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-header bg-success text-white">
-                        <h3>Crea una Cuenta</h3>
+                        <h3>Crea una Cuenta de Entrenador</h3>
                     </div>
                     <div class="card-body">
                         <form method="POST" action="{{ route('register') }}">
